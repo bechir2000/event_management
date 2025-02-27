@@ -1,0 +1,267 @@
+footer {
+  text-align: center;
+}
+
+body{
+  background-color: #BBBBBB;
+}
+
+.container{
+  padding: 2rem;
+}
+
+.events-container{
+  padding-top: 1rem;
+  margin: 0 2rem;
+}
+
+
+.navbar-brand {
+  font-family: 'Dancing Script';
+  font-size: 1.7rem !important;
+}
+
+.font-style{
+  font-family: 'Dancing Script';
+  font-size: 3rem !important;
+
+}
+
+.search-bar{
+  padding-left: 5rex;
+}
+
+.carousel-img{
+  height: 50rem;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: 30rem;
+}
+
+
+.about-us{
+  text-align: center;
+}
+
+.about-us h1{
+  font-family: 'Dancing Script', cursive;
+  padding: 5rex;
+  margin: 5rex;
+}
+
+.category{
+  margin-right:1rem;
+  margin-bottom: 1rem;
+  transition: transform 0.2s ease;
+
+}
+
+.category:active {
+  /* Apply the scale transformation when the button is pressed */
+  transform: scale(1.1);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-right: 0;
+  overflow-x: hidden;
+}
+
+.card-text.description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-body-secondary{
+  font-size:small;
+}
+
+.search-bar-form{
+  width: 40%;
+}
+
+.form-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding-top: 6rem;
+}
+
+.form-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding-top: 3rem;
+}
+
+.nav-link {
+  margin : 0.4rem; 
+}
+
+.login-box {
+  background-color: #f0f0f0;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 30rem;
+  height: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+.login-heading {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: flex;
+}
+
+.forgot-password{
+  text-align: left;
+}
+
+.divider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.divider-text {
+  padding: 0 0.5rem;
+  color: #777;
+}
+
+.social-login-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.btn {
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.btn-google {
+  background-color: #dd4b39;
+  color: #fff;
+}
+
+.background {
+  background-color: #D8D9DA;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding-bottom: 5rem;
+}
+
+.label {
+  margin-top: 0.4rem;
+}
+
+.search-icon{
+  padding-top: 0.6rem;
+}
+
+.cardImg img{
+  height: 100px !important;
+}
+
+.card-text{
+  margin-bottom: 0;
+}
+
+.accountDetails{
+  margin-top:2rem;
+  margin-bottom:2rem;
+
+}
+
+.password-item {
+  text-rendering: optimizeLegibility;
+  letter-spacing: 5px;
+}
+
+.search-bar-form {
+  position: relative;
+  z-index: 1;
+}
+
+.details{
+  margin-top: 2rem;
+}
+
+.search-icon {
+  position: absolute;
+  top: 40%;
+  left: 1rem; /* Adjust the left value to position the icon */
+  transform: translateY(-50%);
+  font-size: 16px; /* Adjust the font size as needed */
+  z-index: 2; /* Set a higher z-index to bring the icon in front of the input */
+}
+
+.search-input input {
+  padding-left: 30px; /* Adjust the padding value to create space for the icon */
+}
+
+.tickets-container{
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.navbar-logo{
+  height:4rem;
+  margin:0;
+  padding-left: 0;
+  padding-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
